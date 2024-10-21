@@ -3,14 +3,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap');
 
-/* font-family: "Ballet", cursive; */
 
 * {
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
 }
-ul,ol {
+ul,li {
     list-style-type: none;
 }
 a {
@@ -19,8 +18,14 @@ a {
 img {
     width: 100%;
 }
+body {
+    background-color: #222222;
+}
 
 /* Common Classes */
+#habit {
+    padding: 100px 0px;
+}
 .container {
     width: 1140px;
     margin: 0 auto;
@@ -31,5 +36,166 @@ img {
 .grid {
     display: grid;
 }
+.text-center {
+    text-align: center;
+}
+
+/* Header Part */
+#header {
+    background-color: rgb(17, 17, 17);
+}
+
 
 /* Navbar Part */
+#nav {
+    padding: 56px 0px 32px 0px;
+}
+.navbar {
+    align-items: center;
+    justify-content: space-between;
+}
+.logo > span{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 800;
+    color: #E6533C;
+}
+.navLink ul {
+    padding: 10px 0px;
+    border-radius: 30px;
+    border: 1px solid #6c6c6c;
+}
+.navLink ul {
+    gap: 20px;
+}
+.navLink ul a {
+    padding: 10px;
+    font-size: 18x;
+    font-weight: 600;
+    color: #f1f1f1;
+    border-radius: 30px;
+    transition: all linear 0.2s;
+}
+.navLink ul a:hover {
+    color: #fff;
+    background-color: #E6533C;
+}
+
+/* Banner Part */
+.banner_container {
+    grid-template-columns: repeat(2, 1fr);
+}
+.banner_left {
+    padding-bottom: 70px;
+}
+.banner_left h1{
+    font-size: 78px;
+    font-weight: 900;
+    color: #fff;
+    padding-bottom: 28px;
+}
+.banner_left h1 > span {
+    font-family: "Ballet", cursive;
+}
+.banner_left p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff7d;
+    padding-bottom: 28px;
+}
+.banner_left button {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 42px;
+    padding: 16px 45px;
+    background-color: transparent;
+    border: 2px solid #6c6c6c;
+    transition: all linear 0.2s;
+    margin-right: 20px;
+    
+}
+.banner_left button:hover {
+    border-color: #E6533C;
+    background-color: #E6533C;
+}
+.banner_right {
+    background-image: url(../images/Images\ 2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom right;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.banner_tag {
+    width: 25%;
+    text-align: center;
+    padding: 17px 24px;
+    border-radius: 15px;
+    background-color: #ffffff39;
+}
+.banner_tag h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+.banner_tag p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffffb0;
+}
+.right_1s {
+    margin-top: 108px;
+    justify-content: right;
+}
+.right_2nd {
+    justify-content: center;
+}
+
+/* Title Part */
+.title {
+    margin-bottom: 54px;
+}
+.title h2{
+    font-size: 48px;
+    font-weight: 900;
+    color: #fff;
+    padding-bottom: 14px;
+}
+.title p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff4d;
+}
+/* Habit Part */
+.habit_container {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+.habit_card {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+.card_img {
+    width: 180px;
+    border-radius: 50%;
+    border: 5px solid #6c6c6c;
+    align-items: center;
+}
+.card_img img {
+    border-radius: 50%;
+}
+.habit_card h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+.habit_card p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffffb0;
+}
