@@ -199,3 +199,338 @@ body {
     font-weight: 400;
     color: #ffffffb0;
 }
+
+/* Run Part */
+.run_container {
+    padding: 25px;
+    background-color: #6c6c6c71;
+    border-radius: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 30px;
+}
+.run_left h4 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #fff;
+    padding-bottom: 10px;
+}
+.run_left p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffffb0;
+    margin-bottom: 15px;
+}
+.run_left button {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    padding: 16px 70px;
+    border: 1px solid #E6533C;
+    background: #E6533C;
+    border-radius: 30px;
+    transition: all linear 0.2s;
+}
+.run_left button:hover {
+    background-color: transparent;
+}
+.run_right img {
+    border-radius: 20px;
+}
+/* Training Part */
+#training {
+    padding: 100px 0px;
+}
+.row1 {
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 220px
+}
+.row2 {
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 220px
+}
+.item_1 {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,255,128,0.23021708683473385) 0%), url(../images/exercise1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.item_2 {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,29,0,0.23021708683473385) 0%), url(../images/exercise2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item_3 {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(16,16,16,0.14058123249299714) 0%), url(../images/exercise3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item_4 {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(16,16,16,0.38707983193277307) 0%), url(../images/exercise4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item_5 {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,248,0,0.30024509803921573) 0%), url(../images/exercise5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item_6 {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,198,255,0.3310574229691877) 0%), url(../images/exercise6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* BMI Part CSS */
+
+.bmi_container {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.bmi_left h3 {
+    font-size: 28px;
+    font-weight: 900;
+    color: #fff;
+    padding-bottom: 52px;
+}
+.bmi_left  table {
+    border-collapse: collapse;
+    color: #fff;
+}
+
+.bmi_left  th, td {
+    border: 1px solid #ffffff72;
+    color: #fff;
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+}
+
+.bmi_left td {
+    color: #ffffffb0;
+}
+.bmi_right h2 {
+    font-size: 28px;
+    font-weight: 900;
+    color: #fff;
+    padding-bottom: 14px;
+}
+.bmi_right p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff72;
+    line-height: 24px;
+    padding-bottom: 34px;
+}
+.bmi_right form input {
+    width: 260px;
+    border: none;
+    background-color: #f1f1f169;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+.bmi_right form input::placeholder {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffffb0;
+}
+.bmi_right form .sex {
+    width: 280px;
+    border: none;
+    background-color: #f1f1f169;
+    color: #ffffffb0;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+.bmi_right form .activity {
+    width: 100%;
+    border: none;
+    background-color: #f1f1f169;
+    color: #ffffffb0;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+.bmi_right form button {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 16px 70px;
+    border-radius: 30px;
+    border: 2px solid #E6533C;
+    background-color:  #E6533C;
+    transition: all linear 0.2s;
+}
+.bmi_right form button:hover {
+    background: transparent;
+}
+
+/* Team Part CSS */
+#team {
+    padding: 85px 0px;
+}
+.team_container {
+    background-color: #6c6c6c71;
+    padding: 30px;
+    border-radius: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 272px 272px;
+    gap: 20px;
+}
+.team1 {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(14,14,14,0.1601890756302521) 0%), url(../images/trainer1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+}
+.team2 {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(14,14,14,0.1601890756302521) 0%), url(../images/trainer2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+}
+.team3 {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(14,14,14,0.1601890756302521) 0%), url(../images/trainer3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+}
+.team4 {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(14,14,14,0.1601890756302521) 0%), url(../images/trainer4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+}
+.team5 {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(14,14,14,0.1601890756302521) 0%), url(../images/trainer5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+}
+.team6{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(14,14,14,0.1601890756302521) 0%), url(../images/trainer6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+/* Footer Part */
+#footer {
+    padding: 65px 0px 35px 0px;
+    background-color: #6c6c6c71;
+}
+.footer_container {
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 50px;
+}
+.footer_start span {
+    font-size: 70px;
+    font-weight: 700;
+    font-style: italic;
+    color: #E6533C;
+    padding-bottom: 20px;
+}
+.footer_start p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffffb0;
+    line-height: 24px;
+}
+.footer_center h5{
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 10px;
+}
+.footer_center> ul {
+    flex-direction: column;
+    gap: 15px;
+}
+.footer_center ul li a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffffb0;
+    margin-bottom: 25px;
+}
+.footer_end h5{
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 10px;
+}
+.footer_end> ul {
+    flex-direction: column;
+    gap: 15px;
+}
+.footer_end ul li a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffffb0;
+    margin-bottom: 25px;
+}
+.footer_center h5{
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 10px;
+}
+.footer_center> ul {
+    flex-direction: column;
+    gap: 15px;
+}
+.footer_center ul li a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffffb0;
+    margin-bottom: 25px;
+}
+
+
+/* Copyright Part */
+.copyright_container {
+    padding-top: 35px;
+    border-top: 1px solid #6c6c6c;
+    text-align: center;
+}
+.copyright_container small {
+    font-size: 20px;
+    color: #ffffffb0;
+}
