@@ -289,6 +289,10 @@ body {
 }
 
 /* BMI Part CSS */
+#bmi {
+    background-color: #6c6c6c71;
+    padding: 40px 0px;
+}
 
 .bmi_container {
     grid-template-columns: repeat(2, 1fr);
