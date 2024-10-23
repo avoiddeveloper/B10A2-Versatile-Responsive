@@ -80,7 +80,10 @@ body {
     color: #fff;
     background-color: #E6533C;
 }
-
+.mobile {
+    font-size: 24px;
+    display: none;
+}
 /* Banner Part */
 .banner_container {
     grid-template-columns: repeat(2, 1fr);

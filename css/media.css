@@ -1,0 +1,251 @@
+/* Mobile Device */
+@media screen and (max-width: 576px){
+
+    /* Navbar Part */
+    #nav {
+        padding: 56px 0px 32px 0px;
+        background-color: rgb(17, 17, 17);
+    }
+    .navLink ul {
+        border: none;
+    }
+    .navLink ul .device {
+        display: none;
+    }
+    .mobile {
+        display: inline-block;
+    }
+
+    /* Banner Part */
+    .banner_container {
+        grid-template-columns: repeat(1, 1fr);
+        background-color: rgb(17, 17, 17);
+    }
+    .banner_right {
+        background-position: bottom center;
+    }
+    .banner_tag {
+        width:130px;
+        padding: 15px 24px;
+    }
+    .banner_tag h3{
+        font-size: 30px;
+    }
+    .right_1s {
+        margin-right: 340px;
+        margin-bottom: 150px;
+    }
+    .right_2nd {
+        margin-right: 280px;
+        margin-bottom: 140px;
+    }
+
+    /* Habit Part */
+    .habit_container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+    .card_img {
+        width: 250px;
+        border: 8px solid #6c6c6c;
+    }
+    .card_img img {
+        border-radius: 50%;
+    }
+    .habit_card h4 {
+        font-size: 20px;
+    }
+    .habit_card p {
+        font-size: 16px;
+    }
+
+    /* Run Part */
+    .run_container {
+        padding: 50px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .run_right {
+        text-align: center;
+    }
+    .run_right img {
+        border-radius: 20px;
+    }
+
+    /* Training Part */
+    #training {
+        padding: 100px 0px;
+    }
+    .row1 {
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 350px
+    }
+    .row2 {
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 350px
+    }
+
+    /* BMI Part CSS */
+    #bmi {
+        background-color: transparent;
+    }
+    .bmi_container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .bmi_left {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .bmi_left  table {
+        margin: 0 auto;
+    }
+    .bmi_right {
+        text-align: center;
+    }
+    .bmi_right form input {
+        width: 300px;
+    }
+    .bmi_right form .sex {
+        width: 300px;
+    }
+    .bmi_right form .activity {
+        width: 600px;
+    }
+
+    /* Team Part CSS */
+    .team_container {
+        background-color: #6c6c6c71;
+        padding: 30px;
+        border-radius: 10px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 700px 700px 700px 700px 700px 700px;
+        gap: 20px;
+    }
+
+    /* Footer Part */
+    #footer {
+        padding: 0px 0px 0px 0px;
+        background-color: transparent;
+    }
+    .footer_container {
+        padding: 65px 0px 35px 0px;
+        grid-template-columns: repeat(3, 1fr);
+        background-color: #6c6c6c71;
+    }
+
+    /* Copyright Part */
+    .copyright_container {
+        background-color: #6c6c6c71;
+        padding: 35px 0px;
+    }
+
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 992px){
+    /* Navbar Part */
+    #nav {
+        padding: 56px 0px 32px 0px;
+        background-color: rgb(17, 17, 17);
+    }
+    .navLink ul {
+        border: none;
+    }
+    .navLink ul .device {
+        display: none;
+    }
+    .mobile {
+        display: inline-block;
+    }
+
+    /* Habit Part */
+    .habit_container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    .card_img {
+        width: 250px;
+        border: 8px solid #6c6c6c;
+    }
+    .card_img img {
+        border-radius: 50%;
+    }
+    .habit_card h4 {
+        font-size: 20px;
+    }
+    .habit_card p {
+        font-size: 16px;
+    }
+
+    /* Run Part */
+    .run_container {
+        padding: 50px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .run_right img {
+        border-radius: 20px;
+    }
+
+    /* Training Part */
+    #training {
+        padding: 100px 0px;
+    }
+    .row1 {
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 250px
+    }
+    .row2 {
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-template-rows: 250px
+    }
+
+    /* BMI Part CSS */
+    #bmi {
+        background-color: transparent;
+    }
+    .bmi_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .bmi_left {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .bmi_left  table {
+        margin: 0 auto;
+    }
+    .bmi_right form input {
+        width: 50%;
+    }
+    .bmi_right form .sex {
+        width: 50%;
+    }
+    .bmi_right form .activity {
+        width: 50%;
+    }
+
+    /* Team Part CSS */
+    .team_container {
+        background-color: #6c6c6c71;
+        padding: 30px;
+        border-radius: 10px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 400px 400px;
+        gap: 20px;
+    }
+
+    /* Footer Part */
+    #footer {
+        padding: 0px 0px 0px 0px;
+        background-color: transparent;
+    }
+    .footer_container {
+        padding: 65px 0px 35px 0px;
+        grid-template-columns: repeat(3, 1fr);
+        background-color: #6c6c6c71;
+    }
+
+    /* Copyright Part */
+    .copyright_container {
+        background-color: #6c6c6c71;
+        padding: 35px 0px;
+    }
+}
